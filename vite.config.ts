@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   preview: {
-    allowedHosts: ['trum-meme-giveaway.onrender.com'], // Add your Render domain
+    allowedHosts: ['.onrender.com'], // Add your Render domain
     port: 10000, // Optional: Render uses port 10000 by default
     host: true, // Listen on all addresses
   },
